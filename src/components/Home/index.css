@@ -1,0 +1,110 @@
+body {
+    background-color: lightgrey;
+}
+.errorText{
+    color:white;
+    background-color: #f15025;
+    display: flex;
+    font-weight: 900;
+    justify-content: center;
+}
+.charge{padding: 4px;}
+.amount{padding: 3px 3px 4px 3px;}
+.color-w{
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+.edit{
+outline: none;
+border: 1.9px solid forestgreen;
+width: 56px;
+height: 26px;
+background-color: white;
+color: forestgreen;
+margin-right: 7px;
+}
+.delete{
+    outline: none;
+border: 1.9px solid #FF7D7A;
+width: 56px;
+height: 26px;
+background-color: white;
+color: #FF7D7A;
+margin-right: 7px;
+
+transition: 0.3s;
+}
+.delete:hover{
+background-color: #f15025;
+color: white;
+border: none;
+}
+.edit:hover{
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    }
+.bb{border: 1px solid gainsboro;}
+.jcc{justify-content: center;}
+.center{text-align: center;}
+.w50{width: 50%;}
+.rb{background-color:#f15025;}
+.wc{color: white;}
+.p50{padding: 10px;}
+.space-around{
+ justify-content: space-around; 
+}
+
+.white-box {
+    background-color: white;
+}
+
+.inputui {
+    border: none;
+    padding: 14px;
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (min-width: 540px) {
+    .white-box {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+.inputui:focus,
+.sumbit:focus {
+
+    outline: none;
+
+}
+
+
+.submit:hover {
+    box-shadow: -1px 5px 8px 2px #827a7a;
+}
+
+.theflexbox {
+    padding-top: 30px;
+}
+
+.bgcolor-r {
+    padding: 5px;
+    background-color: red;
+}
+
+.submit {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: box-shadow 333ms ease-in-out 20ms;
+    background-color: tomato;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 70px;
+    outline: none;
+}
